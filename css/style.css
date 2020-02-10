@@ -1,0 +1,738 @@
+@charset "utf-8";
+
+body {
+  width: 960px;
+  font-family: 'georgia', serif, "Liberation serif";
+  font-size: 1em;
+}
+
+/* Fontes */
+.fonte-envolvente {
+  font-family: 'Poppins', sans-serif, "Liberation sans";
+}
+
+.fonte-alucinante {
+  font-family: 'Yeon Sung', cursive;
+}
+
+.fonte-amedrontadora {
+  font-family: 'Lacquer', sans-serif, "Liberation sans";
+  text-transform: uppercase;
+}
+
+.fonte-envolvente:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.692);
+}
+
+.fonte-alucinante:hover {
+  color: rgb(29, 248, 40);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.692);
+}
+
+.fonte-amedrontadora:hover {
+  color: rgba(173, 0, 0, 0.74);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.692);
+}
+
+.fonte-tamanho-16px {
+  font-size: 16px;
+}
+
+.fonte-underline:hover {
+  border-bottom: 2px solid currentColor;
+  position: relative;
+  top: -5px;
+  padding: 0 5px;
+  left: -5px;
+}
+
+
+/* Cores dos Fundos */
+.bg-black {
+  background-color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-darkgrey {
+  background-color: #333;
+}
+
+.bg-cinza-medio {
+  background-color: #7d7d7d;
+}
+
+.bg-nublado {
+  background-color: #dbdbdb;
+}
+
+.bg-gradiente-preto-vermelho {
+  background: linear-gradient(0deg, rgb(194, 12, 12) 0, rgb(0, 0, 0) 75%);
+}
+
+.bg-btn-green-cabana:hover {
+  background-color: #298d71;
+}
+
+.sombra-borda {
+  box-shadow: 0 -10px 10px rgb(216, 216, 216);
+}
+
+/* Centralizar elemento*/
+.centro {
+  margin: auto;
+}
+
+.centro-ul {
+  position: relative;
+  left: 10%;
+}
+
+/* Texto à direita */
+.texto-direita {
+  text-align: right;
+}
+
+/* Texto à esquerda */
+.texto-esquerda {
+  text-align: left;
+}
+
+/* Texto centralizado*/
+.texto-centro {
+  text-align: center;
+}
+
+/* Posicionamentos */
+.posicionamento-direita {
+  float: right;
+}
+
+.posicionamento-esquerda {
+  float: left;
+}
+
+.posicionamento-final {
+  top: 28%;
+  position: relative;
+}
+
+/* Retirar formatação da lista */
+.lista-inline li {
+  display: inline;
+}
+
+/* Definindo padding */
+.padding-top-20px {
+  padding-top: 20px;
+}
+
+.padding-right-20px {
+  padding-right: 20px;
+}
+
+.padding-bottom-20px {
+  padding-bottom: 20px;
+}
+
+.padding-left-20px {
+  padding-left: 20px;
+}
+
+.padding-20px {
+  padding: 20px;
+}
+
+.padding-right-50px {
+  padding-right: 200px;
+}
+
+.padding-10px {
+  padding: 10px;
+}
+
+.padding-top-bottom-10px {
+  padding: 10px;
+}
+
+.padding-right-300px {
+  padding-right: 300px;
+}
+
+.padding-right-150px {
+  padding-right: 150px;
+}
+
+/* Definindo margens */
+.margem-esquerda-64px {
+  margin-left: 64px;
+}
+
+.margem-esquerda-164px {
+  margin-left: 125px;
+}
+
+.margin-25 {
+  margin-top: 25px;
+}
+
+.altura-543px {
+  height: 543px;
+}
+
+
+/* ============== Index ============== */
+.img-logo {
+  float: left;
+  margin: 15px 20px;
+}
+
+header {
+  background: #141414;
+  height: 105px;
+}
+
+.header-jogo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: "McLaren", cursive;
+}
+
+.header-jogo nav a:hover {
+  color: #ff6363;
+}
+
+.header-jogo nav ul li {
+  padding-left: 15px;
+}
+
+/* Centralizando o conteúdo para o meio da página*/
+.posicionamento-central {
+  width: 700px;
+  color: wheat;
+  position: relative;
+  top: -85%;
+  left: 14%;
+}
+
+.posicionamento-central h1 {
+  font-size: 1.8em;
+}
+
+.section-fonte {
+  font-size: 1.5em;
+  text-shadow: 2px 2px 5px rgba(34, 34, 34, 0.8);
+}
+
+.btn-iniciar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  border: 2px solid #000;
+  background-color: rgba(77, 77, 77, 0.3);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-iniciar a:hover {
+  position: relative;
+  top: 5px;
+  left: -2px;
+  color: #cf1e1e;
+  font-weight: bolder;
+  text-shadow: 0px 0px 10px #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.425);
+}
+
+footer {
+  background: #7d7d7d;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  clear: both;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: #000;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* ============== Fim Index ============== */
+
+
+/* ============== Instruções / jogo ============== */
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  margin: 0;
+  padding: 29.5px 0;
+}
+
+.historico>li>a {
+  text-decoration: none;
+}
+
+.nav-jogo {
+  margin: 25px 0;
+  width: 240px;
+
+}
+
+.imagem-principal {
+  display: block;
+}
+
+.hidden {
+  opacity: 0%;
+  transition: .8s;
+}
+
+.hidden:hover {
+  opacity: 100%;
+  transition: .5s;
+}
+
+.article-jogo {
+  width: 700px;
+  margin: 25px 0;
+}
+
+article>h3,
+article>p {
+  padding: 0 15px;
+}
+
+/* .section-instrucoes:hover {
+  filter: invert(100%);
+  transition: ease 1s;
+  box-shadow: 2px -10px 10px rgb(56, 56, 56);
+} */
+
+
+.btn-comecar-jogo a {
+  color: #24242496;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 10px 20px;
+}
+
+.btn-comecar-jogo a:hover {
+  border-radius: 10px;
+  background: rgb(66, 66, 66);
+  color: rgb(228, 227, 227);
+  position: relative;
+  /* left:2px; */
+  top: 5px;
+  transition: ease .2s;
+}
+
+.margin-20px {
+  margin: 20px;
+}
+
+.margin-50-20px {
+  margin: 50px 20px;
+}
+
+.margin-100-20-50px {
+  margin: 195px 20px 50px;
+}
+
+.menu-jogo {
+  position: relative;
+}
+
+.menu-jogo li {
+  list-style: none;
+  padding: 5px;
+}
+
+.historico>li>a,
+.menu-jogo>li>a {
+  padding: 2px 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  width: 120px;
+}
+
+.historico>li>a:hover,
+.menu-jogo>li>a:hover {
+  color: white;
+  background: black;
+  transition: all ease-out .5s;
+}
+
+.filtro-invert {
+  filter: invert(100%);
+}
+
+.filtro-no-invert:hover {
+  filter: none;
+  transition: .5s;
+}
+
+.siga,
+.volte {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  margin-bottom: 20px;
+}
+
+.siga:hover,
+.volte:hover {
+  color: #ff6363;
+}
+
+.siga {
+  float: right;
+}
+
+.volte {
+  float: left;
+}
+
+.lista-escolha {
+  width: 340px;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+
+.lista-escolha li {
+  list-style: none;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.no-width {
+  width: auto;
+}
+
+.btn-color-cinza:hover {
+  background-color: rgb(58, 58, 58);
+  transition: 1s;
+}
+
+.btn-color-azul-medio {
+  background-color: #7474ff;
+}
+
+.btn-color-azul-escuro {
+  background-color: rgb(59, 59, 219);
+}
+
+.btn-color-azul:hover {
+  background-color: rgb(59, 59, 219);
+}
+
+table {
+  width: 600px;
+  /* background: lightpink; */
+  /* margin: auto; */
+  border: 1px solid rgb(116, 115, 115);
+  border-radius: 5px;
+}
+
+td>img {
+  border: 2px solid transparent;
+  padding: 10px;
+  filter: grayscale(70%);
+}
+
+td>img:hover {
+  border: 2px dashed rgb(211, 4, 4);
+  position: relative;
+  filter: none;
+}
+
+.section-cena00:hover {
+  filter: grayscale(100%);
+  transition: ease 1s;
+  box-shadow: 2px -10px 10px rgb(56, 56, 56);
+}
+
+.imagem-grey {
+  filter: grayscale(100%);
+}
+
+.imagem-grey:hover {
+  filter: grayscale(0);
+  transition: ease 1s;
+}
+
+.imagem-black-sepia {
+  filter: grayscale(100%);
+}
+
+.imagem-black-sepia:hover {
+  filter: none;
+  transition: ease 1s;
+}
+
+.link-grande {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000;
+}
+
+.color-roxo {
+  color: #54436d;
+}
+
+.color-red:hover {
+  color: #f00;
+}
+
+.color-pink:hover {
+  color: rgb(95, 20, 20);
+  background: rgb(236, 178, 158);
+
+}
+
+.color-blue:hover {
+  color: rgb(6, 75, 179);
+}
+
+.color-grey-cabana:hover {
+  color: rgb(207, 207, 207);
+  transition: .7s;
+}
+
+.color-green {
+  color: #298d71;
+}
+
+.color-cinza {
+  color: rgb(27, 27, 27);
+}
+
+.color-cinza:hover {
+  color: rgb(216, 216, 216);
+}
+
+.color-white {
+  color: rgb(255, 255, 255);
+}
+
+.color-black {
+  color: rgb(0, 0, 0);
+}
+
+
+.item-opacidade {
+  filter: opacity(20%);
+  transition: all ease-in 400ms;
+}
+
+.item-opacidade:hover {
+  filter: none;
+}
+
+
+.borda-1px {
+  border: solid 1px white;
+}
+
+.borda-1px-preto {
+  border: solid 1px rgb(37, 37, 37);
+}
+
+.borda-1px-cinza:hover {
+  border: dotted 1px rgb(71, 71, 71);
+  padding: 10px;
+  position: relative;
+  left: -11px;
+}
+
+.border-bottom-white {
+  border-bottom: 1px dashed white;
+  border-top: 1px dashed white;
+}
+
+
+/* Aturas fixas para nav / article em cada tela 
+*/
+
+.altura-440px {
+  height: 440px;
+}
+
+.altura-458px {
+  height: 458px;
+}
+
+.altura-465px {
+  height: 465px;
+}
+
+.altura-513px {
+  height: 513px;
+}
+
+.altura-539px {
+  height: 539px;
+}
+
+.altura-557px {
+  height: 557px;
+}
+
+.altura-583px {
+  height: 583px;
+}
+
+.altura-600px {
+  height: 600px;
+}
+
+.altura-635px {
+  height: 635px;
+}
+
+.altura-660px {
+  height: 660px;
+}
+
+.altura-680px {
+  height: 680px;
+}
+
+.altura-700px {
+  height: 700px;
+}
+
+.altura-710px {
+  height: 710px;
+}
+
+
+.altura-728px {
+  height: 728px;
+}
+
+.altura-798px {
+  height: 798px;
+}
+
+.altura-840px {
+  height: 840px;
+}
+
+.altura-922px {
+  height: 922px;
+}
+
+.altura-1100px {
+  height: 1100px;
+}
+
+.altura-1250px {
+  height: 1250px;
+}
+
+
+/*============= Formulário Contato / Cadastro ============*/
+.article-form {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  color: #54436d;
+}
+
+#form-contato {
+  height: 300px;
+}
+
+#form-contato>fieldset {
+  height: 400px;
+}
+
+.input-nome {
+  margin-left: 60px;
+  width: 300px;
+  position: absolute;
+}
+
+.input-email {
+  margin-left: 56px;
+  width: 300px;
+  position: absolute;
+}
+
+#mensagem {
+  margin-left: 27px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+}
+
+#input-senha {
+  margin-left: 61px;
+  width: 300px;
+  position: absolute;
+}
+
+#input-nascimento {
+  margin-left: 40px;
+  width: 220px;
+  position: absolute;
+}
+
+#input-select {
+  margin-left: 132px;
+  width: 228px;
+  position: absolute;
+}
+
+#btn-enviar {
+  position: absolute;
+  top: 580px;
+  left: 615px;
+  width: 150px;
+  background-color: #54436d;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+}
+
+#btn-enviar-cadastro {
+  position: absolute;
+  top: 470px;
+  left: 700px;
+  width: 150px;
+  background-color: #54436d;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+}
+
+/* sobre */
+.h2-sobre {
+  color: #54436d;
+}
+
+.article-sobre {
+  width: 500px;
+  color: #54436d;
+  padding-right: 40px;
+}
+
+#aside-sobre {
+  float: left;
+  margin: 80px 0 80px 80px;
+}
+
+.article-sobre {
+  float: right;
+}
